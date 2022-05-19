@@ -1,0 +1,22 @@
+CREATE TABLE producto
+
+(id_producto INTEGER not NULL,
+nombre VARCHAR(30) not NULL,
+categoira VARCHAR(30) not NULL,
+precio INTEGER not NULL
+);
+
+insert into producto 
+(id_producto,nombre,categoria,precio)
+VALUES
+(1,'teclado','electronica',50000)
+
+insert into producto 
+(id_producto,nombre,categoria,precio)
+VALUES
+(2,'mouse','electronica',20000)
+
+insert into producto 
+(id_producto,nombre,categoria,precio)
+VALUES
+(3,'monitor','electronica',130000)
